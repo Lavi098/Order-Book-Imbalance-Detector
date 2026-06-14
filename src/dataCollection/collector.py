@@ -26,29 +26,12 @@ import requests
 # ============================================================
 
 URL = (
-    "https://groww.in/v1/api/stocks_fo_data/v1/tr_live_book/"
-    "exchange/NSE/segment/FNO/BANKNIFTY26JUNFUT/latest"
+
 )
 
 CSV_FILE = "data/raw/banknifty_orderbook.csv"
 
-HEADERS = {
-    "Accept": "application/json",
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/149.0.0.0 Safari/537.36"
-    ),
 
-    # Replace these with your latest values
-    "Authorization": "Bearer YOUR_TOKEN",
-    "X-REQUEST-ID": "YOUR_REQUEST_ID",
-    "X-REQUEST-CHECKSUM": "YOUR_CHECKSUM",
-    "X-APP-ID": "growwWeb",
-    "X-DEVICE-ID": "YOUR_DEVICE_ID",
-    "X-DEVICE-ID-V2": "YOUR_DEVICE_ID",
-    "x-platform": "web",
-}
 
 
 # ============================================================
